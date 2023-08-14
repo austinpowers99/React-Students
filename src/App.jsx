@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Student from './Student';
-
+import './App.css'
 
 export default function App() {
   const [students, setStudents] = useState([
